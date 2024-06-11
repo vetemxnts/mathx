@@ -3,8 +3,8 @@
 	import MenuChaptersListItem from '../atoms/MenuChaptersListItem.svelte';
 </script>
 
-<main class="p-8 pl-32">
+<article class="flex flex-col gap-4 w-max">
 	{#each MenuChapterListItems as item}
 		<MenuChaptersListItem {item} />
 	{/each}
-</main>
+</article>

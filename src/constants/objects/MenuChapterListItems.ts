@@ -22,22 +22,22 @@ export const MenuChapterListItems: MenuChapterListItemProps[] = [
 		ref: '/logarithms'
 	},
 	{
-		name: 'Linear Function',
+		name: 'Linear Functions',
 		index: 5,
 		ref: '/linear'
 	},
 	{
-		name: 'Quadratic Function',
+		name: 'Quadratic Functions',
 		index: 6,
 		ref: '/quadratic'
 	},
 	{
-		name: 'Logarithmic Function',
+		name: 'Logarithmic Functions',
 		index: 7,
 		ref: '/logarithmic'
 	},
 	{
-		name: 'Exponential Function',
+		name: 'Exponential Functions',
 		index: 8,
 		ref: '/exponential'
 	},
