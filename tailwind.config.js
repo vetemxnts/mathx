@@ -10,6 +10,9 @@ export default {
 			width: 'width',
 			height: 'height',
 			backgroundColor: 'background-color'
+		},
+		boxShadow: {
+			base: '8px 8px 8px 4px black'
 		}
 	},
 	plugins: []

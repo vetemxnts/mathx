@@ -16,4 +16,18 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scrollbar-width: thin;
+	scrollbar-color: rgb(229 229 229) rgb(10 10 10);
+}
+
+*::-webkit-scrollbar {
+	width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+	background: rgb(10 10 10);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: rgb(229 229 229);
 }
