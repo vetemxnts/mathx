@@ -6,7 +6,7 @@
 
 <a
 	href={item.ref}
-	class="text-neutral-200 text-xs lg:text-base xl:text-xl flex flex-row items-center group/item hover:bg-neutral-800 transition-backgroundColor duration-300 ease-smooth"
+	class="text-neutral-200 text-xs lg:text-sm xl:text-lg flex flex-row items-center group/item hover:bg-neutral-800 transition-backgroundColor duration-300 ease-smooth"
 >
 	<div class="min-w-12 min-h-8 lg:min-h-12 grid place-items-center">{item.index}</div>
 	<span

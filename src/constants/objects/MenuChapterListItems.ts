@@ -1,6 +1,6 @@
 import type { MenuChapterListItemProps } from '../types/MenuChapterListItemProps';
 
-export const MenuChapterListItems: MenuChapterListItemProps[] = [
+export const MenuChapterListItemsLeft: MenuChapterListItemProps[] = [
 	{
 		name: 'Number Properties',
 		index: 1,
@@ -25,7 +25,10 @@ export const MenuChapterListItems: MenuChapterListItemProps[] = [
 		name: 'Linear Functions',
 		index: 5,
 		ref: '/linear'
-	},
+	}
+];
+
+export const MenuChapterListItemsRight: MenuChapterListItemProps[] = [
 	{
 		name: 'Quadratic Functions',
 		index: 6,

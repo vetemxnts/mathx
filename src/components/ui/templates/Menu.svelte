@@ -1,9 +1,11 @@
 <script>
-	import MenuBanner from '../molecules/MenuBanner.svelte';
-	import MenuMain from '../organisms/MenuMain.svelte';
+	import MenuBanner from '../organisms/MenuBanner.svelte';
+	import MenuChaptersList from '../organisms/MenuChaptersList.svelte';
+	import MenuDescription from '../organisms/MenuDescription.svelte';
 </script>
 
-<main class="w-full h-svh flex flex-col gap-4">
+<main class="h-[calc(100svh-12rem)]">
 	<MenuBanner />
-	<MenuMain />
+	<MenuChaptersList />
+	<MenuDescription />
 </main>
