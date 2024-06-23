@@ -3,7 +3,7 @@
 	import MenuBannerText from '../atoms/MenuBannerText.svelte';
 </script>
 
-<header class="flex flex-col h-32 p-8">
+<header class="flex flex-col h-auto">
 	<MenuBannerLogo />
 	<MenuBannerText />
 </header>

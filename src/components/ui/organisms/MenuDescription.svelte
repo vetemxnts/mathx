@@ -3,7 +3,7 @@
 </script>
 
 <aside
-	class="text-neutral-200 text-center grow h-full flex flex-col gap-4 justify-center items-center px-12"
+	class="text-neutral-200 text-center grow h-full flex flex-col gap-4 justify-center items-center"
 >
 	Visit the website and learn more at:
 	<MenuDescriptionLink />

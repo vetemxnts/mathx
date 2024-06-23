@@ -4,7 +4,7 @@
 	import MenuDescription from '../organisms/MenuDescription.svelte';
 </script>
 
-<main class="h-[calc(100svh-12rem)]">
+<main class="flex flex-col gap-12 py-8">
 	<MenuBanner />
 	<MenuChaptersList />
 	<MenuDescription />
